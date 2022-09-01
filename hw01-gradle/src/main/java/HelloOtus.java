@@ -10,5 +10,6 @@ public class HelloOtus {
         Multiset<String> counts = HashMultiset.create();
         counts.addAll(Arrays.asList(words));
         System.out.println(counts);
+
     }
 }
